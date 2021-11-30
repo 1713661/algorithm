@@ -1,0 +1,59 @@
+테스트 1
+입력값 〉	["frodo", "fradi", "crodo", "abc123", "frodoc"], ["fr*d*", "abc1**"]
+기댓값 〉	2
+실행 결과 〉	테스트를 통과하였습니다.
+출력 〉	[['frodo', 'fradi'], ['abc123']]
+aftersort= [['abc123'], ['frodo', 'fradi']]
+aftersort2= [['fradi', 'frodo'], ['abc123']]
+[['frodo', 'fradi'], {'abc123'}]
+[1, 1]
+
+테스트 2
+입력값 〉	["frodo", "fradi", "crodo", "abc123", "frodoc"], ["*rodo", "*rodo", "******"]
+기댓값 〉	2
+실행 결과 〉	테스트를 통과하였습니다.
+출력 〉	[['frodo', 'crodo'], ['frodo', 'crodo'], ['abc123', 'frodoc']]
+aftersort= [['abc123', 'frodoc'], ['frodo', 'crodo'], ['frodo', 'crodo']]
+aftersort2= [['crodo', 'frodo'], ['crodo', 'frodo'], ['abc123', 'frodoc']]
+[{'crodo', 'frodo'}, {'abc123', 'frodoc'}]
+[2, 1]
+
+테스트 3
+입력값 〉	["frodo", "fradi", "crodo", "abc123", "frodoc"], ["fr*d*", "*rodo", "******", "******"]
+기댓값 〉	3
+실행 결과 〉	테스트를 통과하였습니다.
+출력 〉	[['frodo', 'fradi'], ['frodo', 'crodo'], ['abc123', 'frodoc'], ['abc123', 'frodoc']]
+aftersort= [['abc123', 'frodoc'], ['abc123', 'frodoc'], ['frodo', 'crodo'], ['frodo', 'fradi']]
+aftersort2= [['crodo', 'frodo'], ['fradi', 'frodo'], ['abc123', 'frodoc'], ['abc123', 'frodoc']]
+[{'crodo', 'frodo', 'fradi'}, {'frodoc', 'abc123'}]
+[2, 2]
+
+테스트 4
+입력값 〉	["frodo", "fradi", "crodo", "abc123", "frodoc", "fridic", "frodok", "frodocc", "krodo", "frodock"], ["fr*d*", "*rodo", "frad*", "******", "*****c"]
+기댓값 〉	5
+실행 결과 〉	실행한 결괏값 36이(가) 기댓값 5와(과) 다릅니다.
+출력 〉	[['frodo', 'fradi'], ['frodo', 'crodo', 'krodo'], ['fradi'], ['abc123', 'frodoc', 'fridic', 'frodok'], ['frodoc', 'fridic']]
+aftersort= [['abc123', 'frodoc', 'fridic', 'frodok'], ['fradi'], ['frodo', 'crodo', 'krodo'], ['frodo', 'fradi'], ['frodoc', 'fridic']]
+aftersort2= [['fradi'], ['crodo', 'frodo', 'krodo'], ['fradi', 'frodo'], ['abc123', 'fridic', 'frodoc', 'frodok'], ['fridic', 'frodoc']]
+
+# 이렇듯 정렬했는데도 뒤에 겹치는 원소가 나올 수 있음!!!!!!!!!!!!! 왜 실전에서는 이 케이스를 생각하지 못할까? 너가 너무 어렵게 생각하는거야...
+# 각 banned_id 당 후보리스트 만들면 나중에 경우의 수 생각하기 어렵다는 걸 빨리 알았어야함!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+########## (고등학교 때 이런식으로 경우의 수 계산하는 것도 굉장히 어려운 문제였음..)
+########## dfs 백트래킹으로 풀면 됐었음... https://esoongan.tistory.com/120
+# 사실 금방 알기는 했는데 다른 풀이 방법이 생각나지 않아서 그냥 밀어붙였음(이런 예외 사항 생각하지 않고..)
+# 정규표현식 풀이 https://pslog-eraser.tistory.com/25
+
+[['fradi'], {'crodo', 'fradi', 'krodo', 'frodo'}, {'fridic', 'frodok', 'frodoc', 'abc123'}]
+[1, 2, 2]
+
+테스트 5
+입력값 〉	["frodo", "fradi", "crodo", "abc123", "frodoc", "fridic", "frodok", "frodocc", "krodo", "frodock"], ["fr*d*", "*rodo", "******", "*****c"]
+기댓값 〉	5
+실행 결과 〉	실행한 결괏값 36이(가) 기댓값 5와(과) 다릅니다.
+출력 〉	[['frodo', 'fradi'], ['frodo', 'crodo', 'krodo'], ['abc123', 'frodoc', 'fridic', 'frodok'], ['frodoc', 'fridic']]
+aftersort= [['abc123', 'frodoc', 'fridic', 'frodok'], ['frodo', 'crodo', 'krodo'], ['frodo', 'fradi'], ['frodoc', 'fridic']]
+aftersort2= [['crodo', 'frodo', 'krodo'], ['fradi', 'frodo'], ['abc123', 'fridic', 'frodoc', 'frodok'], ['fridic', 'frodoc']]
+[{'krodo', 'crodo', 'frodo', 'fradi'}, {'abc123', 'frodok', 'fridic', 'frodoc'}]
+[2, 2]
+
+

@@ -1,0 +1,33 @@
+graph= {'ICN': ['SFO', 'ATL'], 'SFO': ['ATL'], 'ATL': ['ICN', 'SFO']}
+route= ['ICN']
+li= ['SFO', 'ATL']
+remove= [('ICN', 'ATL'), ('SFO', 'ATL'), ('ATL', 'ICN'), ('ATL', 'SFO')] route= ['ICN']
+route= ['ICN', 'SFO']
+li= ['ATL']
+remove= [('ICN', 'ATL'), ('ATL', 'ICN'), ('ATL', 'SFO')] route= ['ICN', 'SFO']       
+route= ['ICN', 'SFO', 'ATL']
+li= ['ICN', 'SFO']
+remove= [('ICN', 'ATL'), ('ATL', 'SFO')] route= ['ICN', 'SFO', 'ATL']
+route= ['ICN', 'SFO', 'ATL', 'ICN']
+li= ['SFO', 'ATL']
+Traceback (most recent call last):
+  File "c:\Users\yjkim\AppData\Local\Programs\Python\Python39\(~ing)2021-09-05_프로그
+래머스_43164_여행경로_한달만에다시.py", line 47, in <module>
+    print(solution([["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL","SFO"]]))
+  File "c:\Users\yjkim\AppData\Local\Programs\Python\Python39\(~ing)2021-09-05_프로그
+래머스_43164_여행경로_한달만에다시.py", line 41, in solution
+    dfs("ICN",[])
+  File "c:\Users\yjkim\AppData\Local\Programs\Python\Python39\(~ing)2021-09-05_프로그
+래머스_43164_여행경로_한달만에다시.py", line 36, in dfs
+    dfs(nxt,route)
+  File "c:\Users\yjkim\AppData\Local\Programs\Python\Python39\(~ing)2021-09-05_프로그
+래머스_43164_여행경로_한달만에다시.py", line 36, in dfs
+    dfs(nxt,route)
+  File "c:\Users\yjkim\AppData\Local\Programs\Python\Python39\(~ing)2021-09-05_프로그
+래머스_43164_여행경로_한달만에다시.py", line 36, in dfs
+    dfs(nxt,route)
+  File "c:\Users\yjkim\AppData\Local\Programs\Python\Python39\(~ing)2021-09-05_프로그
+래머스_43164_여행경로_한달만에다시.py", line 34, in dfs
+    tickets.remove((start,nxt))
+ValueError: list.remove(x): x not in list
+PS C:\Users\yjkim\AppData\Local\Programs\Python\Python39>

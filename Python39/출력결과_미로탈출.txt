@@ -1,0 +1,63 @@
+graph= [[], [(2, 2)], [], [(2, 3)]]
+r_graph= [[], [], [(1, 2), (3, 3)], []]
+now= 1 queue= []
+q= [(2, 2)]
+now= 2 queue= []
+dist= [10000000000, 0, 2, 10000000000]
+None
+graph= [[], [(2, 1)], [(4, 1)], [(2, 1)], []]
+r_graph= [[], [], [(1, 1), (3, 1)], [], [(2, 1)]]
+now= 1 queue= []
+q= [(1, 2)]
+now= 2 queue= []
+q= [(2, 4)]
+now= 4 queue= []
+2
+PS C:\Users\yjkim\AppData\Local\Programs\Python\Python39>
+
+
+
+
+
+
+
+
+
+
+
+graph= [[], [(2, 2)], [], [(2, 3)]]
+r_graph= [[], [], [(1, 2), (3, 3)], []]
+now= 1 queue= []
+q= [(2, 2)]
+now= 2 queue= []
+q= [(5, 3)]
+now= 3 queue= []
+dist= [10000000000, 0, 2, 5]
+0
+graph= [[], [(2, 1)], [(4, 1)], [(2, 1)], []]
+r_graph= [[], [], [(1, 1), (3, 1)], [], [(2, 1)]]
+now= 1 queue= []
+q= [(1, 2)]
+now= 2 queue= []
+q= [(2, 3)]
+now= 3 queue= []
+dist= [10000000000, 0, 1, 2, 10000000000]
+0
+Python39\python.exe' 'c:\Users\yjkim\.vscode\extensions\ms-python.python-2021.8.1105858891\pythonFiles\lib\python\debugpy\launcher' '57189' '--' 'c:\Users\yjkim\AppData\Local\Programs\Python\Python39\2021-08-10_프로그래머스_81304_미로탈출.py' 
+graph= [[], [(2, 2)], [], [(2, 3)]]
+r_graph= [[], [], [(1, 2), (3, 3)], []]
+now= 1 queue= []
+q= [(2, 2)]
+now= 2 queue= []
+q= [(5, 3)]
+now= 3 queue= []
+5
+graph= [[], [(2, 1)], [(4, 1)], [(2, 1)], []]
+r_graph= [[], [], [(1, 1), (3, 1)], [], [(2, 1)]]
+now= 1 queue= []
+q= [(1, 2)]
+now= 2 queue= []
+q= [(2, 3)]
+now= 3 queue= []
+dist= [10000000000, 0, 1, 2, 10000000000]
+None

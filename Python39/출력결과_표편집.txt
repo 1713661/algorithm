@@ -1,0 +1,83 @@
+#print("max_heap=",max_heap,"k=",heapq.heappop(max_heap)) ####heappop 먼저 수행하고 max_heap 출력... why????
+#print("min_heap=",min_heap,"k=",-heapq.heappop(min_heap))
+
+그래서 print문 띄어써서 출력함
+
+max_heap= [2, 3, 4, 5, 6, 7]
+k= 2
+min_heap= [-1, 0]
+k= 2
+None
+max_heap= [2, 3, 4, 5, 6, 7]
+k= 2
+min_heap= [-2, -1, 0]
+k= 2
+None
+
+# select는 항상 bigger[0] 도록 bigger, smaller 관리하기!!!!!
+# smaller[0]은 select 바로 앞에 있는 안지워진 원소가 되도록 관리하기!!!!!!(음수)
+
+
+D bigger= [4, 5, 6, 7]      
+D smaller= [-3, -2, -1, 0]  
+select= 4
+C bigger= [5, 7, 6]
+C smaller= [-3, -2, -1, 0]  
+select= 5
+U bigger= [1, 3, 2, 7, 5, 6]
+U smaller= [0]
+select= 1
+C bigger= [2, 3, 6, 7, 5]   
+C smaller= [0]
+select= 2
+D bigger= [7]
+D smaller= [-6, -5, -2, 0, -3]
+select= 7
+C bigger= [6]
+C smaller= [-5, -3, -2, 0]
+select= 6
+U bigger= [3, 6, 5]
+U smaller= [-2, 0]
+select= 3
+deleted= [4, 1, 7]
+Z bigger= [3, 6, 5, 7]
+Z smaller= [-2, 0]
+deleted= [4, 1]
+Z bigger= [3, 6, 5, 7]
+Z smaller= [-2, 0, -1]
+None
+
+D bigger= [4, 5, 6, 7]
+D smaller= [-3, -2, -1, 0]
+select= 4
+C bigger= [5, 7, 6]
+C smaller= [-3, -2, -1, 0]
+select= 5
+U bigger= [1, 3, 2, 7, 5, 6]
+U smaller= [0]
+select= 1
+C bigger= [2, 3, 6, 7, 5]
+C smaller= [0]
+select= 2
+D bigger= [7]
+D smaller= [-6, -5, -2, 0, -3]
+select= 7
+C bigger= [6]
+C smaller= [-5, -3, -2, 0]
+select= 6
+U bigger= [3, 6, 5]
+U smaller= [-2, 0]
+select= 3
+deleted= [4, 1, 7]
+Z bigger= [3, 6, 5, 7]
+Z smaller= [-2, 0]
+deleted= [4, 1]
+Z bigger= [3, 6, 5, 7]
+Z smaller= [-2, 0, -1]
+U bigger= [2, 3, 5, 7, 6]
+U smaller= [-1, 0]
+select= 2
+C bigger= [3, 6, 5, 7]
+C smaller= [-1, 0]
+select= 3
+None

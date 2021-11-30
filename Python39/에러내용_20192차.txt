@@ -1,0 +1,18 @@
+'''
+Traceback (most recent call last):
+  File "C:\Users\yjkim\Desktop\syhan\go_workspace\src\2019-blind-2nd-elevator\others_code\sinholee_LOOK.py", line 189, in <module>
+    p_simulator(2)
+  File "C:\Users\yjkim\Desktop\syhan\go_workspace\src\2019-blind-2nd-elevator\others_code\sinholee_LOOK.py", line 179, in p_simulator
+    response = action(token, action_bucket)
+  File "C:\Users\yjkim\Desktop\syhan\go_workspace\src\2019-blind-2nd-elevator\others_code\sinholee_LOOK.py", line 35, in action
+    return requests.post(uri, headers={'X-Auth-Token': token}, json={'commands': cmds}).json()
+  File "C:\Users\yjkim\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 910, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\yjkim\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\yjkim\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\yjkim\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+'''

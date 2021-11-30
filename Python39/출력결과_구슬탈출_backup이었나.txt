@@ -1,0 +1,306 @@
+새로운 크로스 플랫폼 PowerShell 사용 https://aka.ms/pscore6
+
+PS C:\Users\yjkim\AppData\Local\Programs\Python\Python39>  & 'C:\Users\yjkim\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\yjkim\.vscode\extensions\ms-python.python-2021.7.1050252941\pythonFiles\lib\python\debugpy\launcher' '52091' '--' 'c:\Users\yjkim\AppData\Local\Programs\Python\Python39\(~ing)2021-07-20_13459_구슬탈출.py'
+5 5
+#####
+#..B#
+#.#.#
+#RO.#
+#####
+[['#', '#', '#', '#', '#'], ['#', '.', '.', 'B', '#'], ['#', '.', '#', '.', '#'], ['#', 'R', 'O', '.', '#'], ['#', '#', '#', '#', '#']]
+[[0, 0, 0, 0, 0], [0, 1, 1, 'B', 0], [0, 1, 0, 1, 0], [0, 'R', 'O', 1, 0], [0, 0, 0, 0, 0]]
+3 1 1 3 3 2
+3 1 1 3
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 1 1 1
+newbx,newby= 1 3
+afterque= deque([(1, 1, 1)])
+afterque= deque([(1, 3)])
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 1 2 2
+newbx,newby= 1 3
+afterque= deque([(1, 2, 2)])
+afterque= deque([(1, 3)])
+queueRed= deque([])
+queueBlue= deque([])
+None
+PS C:\Users\yjkim\AppData\Local\Programs\Python\Python39>  c:; cd 'c:\Users\yjkim\AppData\Local\Programs\Python\Python39'; & 'C:\Users\yjkim\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\yjkim\.vscode\extensions\ms-python.python-2021.7.1050252941\pythonFiles\lib\python\debugpy\launcher' '54332' '--' 'c:\Users\yjkim\AppData\Local\Programs\Python\Python39\(~ing)2021-07-20_13459_구슬탈출.py' 
+7 7
+#######
+#...RB#
+#.#####
+#.....#
+#####.#
+#O....#
+#######
+[['#', '#', '#', '#', '#', '#', '#'], ['#', '.', '.', '.', 'R', 'B', '#'], ['#', '.', '#', '#', '#', '#', '#'], ['#', '.', '.', '.', '.', '.', '#'], ['#', '#', '#', '#', '#', '.', '#'], ['#', 'O', '.', '.', '.', '.', '#'], ['#', '#', '#', '#', '#', '#', '#']]
+[[0, 0, 0, 0, 0, 0, 0], [0, 1, 1, 1, 'R', 'B', 0], [0, 1, 0, 0, 0, 0, 0], [0, 1, 1, 1, 1, 1, 0], [0, 0, 0, 0, 0, 1, 0], [0, 'O', 1, 1, 1, 1, 0], [0, 0, 0, 0, 0, 0, 0]]
+1 4 1 5 5 1
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 1 1 1
+newbx,newby= 1 5
+afterque= deque([(1, 1, 1)])
+afterque= deque([(1, 5)])
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 3 1 2
+newbx,newby= 1 5
+afterque= deque([(3, 1, 2)])
+afterque= deque([(1, 5)])
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 3 5 3
+newbx,newby= 1 5
+afterque= deque([(3, 5, 3)])
+afterque= deque([(1, 5)])
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 5 5 4
+newbx,newby= 1 5
+afterque= deque([(5, 5, 4)])
+afterque= deque([(1, 5)])
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 5 2 5
+newbx,newby= 1 5
+afterque= deque([(5, 2, 5)])
+afterque= deque([(1, 5)])
+queueRed= deque([])
+queueBlue= deque([])
+None
+PS C:\Users\yjkim\AppData\Local\Programs\Python\Python39>  c:; cd 'c:\Users\yjkim\AppData\Local\Programs\Python\Python39'; & 'C:\Users\yjkim\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\yjkim\.vscode\extensions\ms-python.python-2021.7.1050252941\pythonFiles\lib\python\debugpy\launcher' '52641' '--' 'c:\Users\yjkim\AppData\Local\Programs\Python\Python39\(~ing)2021-07-20_13459_구슬탈출.py' 
+7 7
+#######
+#..R#B#
+#.#####
+#.....#
+#####.#
+#O....#
+#######
+[['#', '#', '#', '#', '#', '#', '#'], ['#', '.', '.', 'R', '#', 'B', '#'], ['#', '.', '#', '#', '#', '#', '#'], ['#', '.', '.', '.', '.', '.', '#'], ['#', '#', '#', '#', '#', '.', '#'], ['#', 'O', '.', '.', '.', '.', '#'], ['#', '#', '#', '#', '#', '#', '#']]
+[[0, 0, 0, 0, 0, 0, 0], [0, 1, 1, 'R', 0, 'B', 0], [0, 1, 0, 0, 0, 0, 0], [0, 1, 1, 1, 1, 1, 0], [0, 0, 0, 0, 0, 1, 0], [0, 'O', 1, 1, 1, 1, 0], [0, 0, 0, 0, 0, 0, 0]]
+1 3 1 5 5 1
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 1 1 1
+newbx,newby= 1 5
+afterque= deque([(1, 1, 1)])
+afterque= deque([(1, 5)])
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 3 1 2
+newbx,newby= 1 5
+afterque= deque([(3, 1, 2)])
+afterque= deque([(1, 5)])
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 3 5 3
+newbx,newby= 1 5
+afterque= deque([(3, 5, 3)])
+afterque= deque([(1, 5)])
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 5 5 4
+newbx,newby= 1 5
+afterque= deque([(5, 5, 4)])
+afterque= deque([(1, 5)])
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 5 2 5
+newbx,newby= 1 5
+afterque= deque([(5, 2, 5)])
+afterque= deque([(1, 5)])
+queueRed= deque([])
+queueBlue= deque([])
+None
+PS C:\Users\yjkim\AppData\Local\Programs\Python\Python39>  c:; cd 'c:\Users\yjkim\AppData\Local\Programs\Python\Python39'; & 'C:\Users\yjkim\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\yjkim\.vscode\extensions\ms-python.python-2021.7.1050252941\pythonFiles\lib\python\debugpy\launcher' '52652' '--' 'c:\Users\yjkim\AppData\Local\Programs\Python\Python39\(~ing)2021-07-20_13459_구슬탈출.py' 
+10 10
+##########
+#R#...##B#
+#...#.##.#
+#####.##.#
+#......#.#
+#.######.#
+#.#....#.#
+#.#.#.#..#
+#...#.O#.#
+##########
+[['#', '#', '#', '#', '#', '#', '#', '#', '#', '#'], ['#', 'R', '#', '.', '.', '.', '#', '#', 'B', '#'], ['#', '.', '.', '.', '#', '.', '#', '#', '.', '#'], ['#', '#', '#', '#', '#', '.', '#', '#', '.', '#'], ['#', '.', '.', '.', '.', '.', '.', '#', '.', '#'], ['#', '.', '#', '#', '#', '#', '#', '#', '.', '#'], ['#', '.', '#', '.', '.', '.', '.', '#', '.', '#'], ['#', '.', '#', '.', '#', '.', '#', '.', '.', '#'], ['#', '.', '.', '.', '#', '.', 'O', '#', '.', '#'], ['#', '#', '#', '#', '#', '#', '#', '#', '#', '#']]
+[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 'R', 0, 1, 1, 1, 0, 0, 'B', 0], [0, 1, 1, 1, 0, 1, 0, 0, 1, 0], [0, 0, 0, 0, 
+0, 1, 0, 0, 1, 0], [0, 1, 1, 1, 1, 1, 1, 0, 1, 0], [0, 1, 0, 0, 0, 0, 0, 0, 1, 0], [0, 1, 0, 1, 1, 1, 1, 0, 1, 0], [0, 1, 0, 1, 0, 1, 0, 1, 1, 0], [0, 1, 1, 1, 0, 1, 'O', 0, 1, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+1 1 1 8 8 6
+1 1 1 8
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 2 1 1
+newbx,newby= 8 8
+afterque= deque([(2, 1, 1)])
+afterque= deque([(8, 8)])
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 2 3 2
+newbx,newby= 8 8
+afterque= deque([(2, 3, 2)])
+afterque= deque([(8, 8)])
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 1 3 3
+newbx,newby= 2 8
+afterque= deque([(1, 3, 3)])
+afterque= deque([(2, 8)])
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 1 5 4
+newbx,newby= 2 8
+afterque= deque([(1, 5, 4)])
+afterque= deque([(2, 8)])
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 4 5 5
+newbx,newby= 7 8
+afterque= deque([(4, 5, 5)])
+afterque= deque([(7, 8)])
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 4 6 6
+newbx,newby= 7 8
+afterque= deque([(4, 6, 6)])
+newrx,newry,newcnt= 4 1 6
+newbx,newby= 7 7
+afterque= deque([(4, 6, 6), (4, 1, 6)])
+afterque= deque([(7, 8), (7, 7)])
+queueRed= deque([(4, 1, 6)])
+queueBlue= deque([(7, 7)])
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 8 1 7
+newbx,newby= 7 7
+afterque= deque([(8, 1, 7)])
+afterque= deque([(7, 7)])
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 8 3 8
+newbx,newby= 7 7
+afterque= deque([(8, 3, 8)])
+afterque= deque([(7, 7)])
+queueRed= deque([])
+queueBlue= deque([])
+newbx,newby= 7 7
+afterque= deque([(6, 3, 9)])
+afterque= deque([(7, 7)])
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 6 6 10
+newbx,newby= 7 7
+afterque= deque([(6, 6, 10)])
+afterque= deque([(7, 7)])
+queueRed= deque([])
+queueBlue= deque([])
+0
+PS C:\Users\yjkim\AppData\Local\Programs\Python\Python39>  c:; cd 'c:\Users\yjkim\AppData\Local\Programs\Python\Python39'; & 'C:\Users\yjkim\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\yjkim\.vscode\extensions\ms-python.python-2021.7.1050252941\pythonFiles\lib\python\debugpy\launcher' '52662' '--' 'c:\Users\yjkim\AppData\Local\Programs\Python\Python39\(~ing)2021-07-20_13459_구슬탈출.py' 
+3 7
+#######
+#R.O.B#
+#######
+[['#', '#', '#', '#', '#', '#', '#'], ['#', 'R', '.', 'O', '.', 'B', '#'], ['#', '#', '#', '#', '#', '#', '#']]   
+[[0, 0, 0, 0, 0, 0, 0], [0, 'R', 1, 'O', 1, 'B', 0], [0, 0, 0, 0, 0, 0, 0]]
+1 1 1 5 1 3
+1 1 1 5
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 1 2 1
+newbx,newby= 1 5
+afterque= deque([(1, 2, 1)])
+afterque= deque([(1, 5)])
+queueRed= deque([])
+queueBlue= deque([])
+None
+PS C:\Users\yjkim\AppData\Local\Programs\Python\Python39>  c:; cd 'c:\Users\yjkim\AppData\Local\Programs\Python\Python39'; & 'C:\Users\yjkim\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\yjkim\.vscode\extensions\ms-python.python-2021.7.1050252941\pythonFiles\lib\python\debugpy\launcher' '52672' '--' 'c:\Users\yjkim\AppData\Local\Programs\Python\Python39\(~ing)2021-07-20_13459_구슬탈출.py' 
+10 10
+##########
+#R#...##B#
+#...#.##.#
+#####.##.#
+#......#.#
+#.######.#
+#.#....#.#
+#.#.##...#
+#O..#....#
+##########
+[['#', '#', '#', '#', '#', '#', '#', '#', '#', '#'], ['#', 'R', '#', '.', '.', '.', '#', '#', 'B', '#'], ['#', '.', '.', '.', '#', '.', '#', '#', '.', '#'], ['#', '#', '#', '#', '#', '.', '#', '#', '.', '#'], ['#', '.', '.', '.', '.', '.', '.', '#', '.', '#'], ['#', '.', '#', '#', '#', '#', '#', '#', '.', '#'], ['#', '.', '#', '.', '.', '.', '.', '#', '.', '#'], ['#', '.', '#', '.', '#', '#', '.', '.', '.', '#'], ['#', 'O', '.', '.', '#', '.', '.', '.', '.', '#'], ['#', '#', '#', '#', '#', '#', '#', '#', '#', '#']]
+[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 'R', 0, 1, 1, 1, 0, 0, 'B', 0], [0, 1, 1, 1, 0, 1, 0, 0, 1, 0], [0, 0, 0, 0, 
+0, 1, 0, 0, 1, 0], [0, 1, 1, 1, 1, 1, 1, 0, 1, 0], [0, 1, 0, 0, 0, 0, 0, 0, 1, 0], [0, 1, 0, 1, 1, 1, 1, 0, 1, 0], [0, 1, 0, 1, 0, 0, 1, 1, 1, 0], [0, 'O', 1, 1, 0, 1, 1, 1, 1, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+1 1 1 8 8 1
+1 1 1 8
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 2 1 1
+newbx,newby= 8 8
+afterque= deque([(2, 1, 1)])
+afterque= deque([(8, 8)])
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 2 3 2
+newbx,newby= 8 8
+afterque= deque([(2, 3, 2)])
+afterque= deque([(8, 8)])
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 1 3 3
+newbx,newby= 2 8
+afterque= deque([(1, 3, 3)])
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 1 5 4
+newbx,newby= 2 8
+afterque= deque([(1, 5, 4)])
+afterque= deque([(2, 8)])
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 4 5 5
+newbx,newby= 7 8
+afterque= deque([(4, 5, 5)])
+afterque= deque([(7, 8)])
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 4 6 6
+newbx,newby= 7 8
+afterque= deque([(4, 6, 6)])
+afterque= deque([(7, 8)])
+newrx,newry,newcnt= 4 1 6
+newbx,newby= 7 6
+afterque= deque([(4, 6, 6), (4, 1, 6)])
+afterque= deque([(7, 8), (7, 6)])
+queueRed= deque([(4, 1, 6)])
+queueBlue= deque([(7, 6)])
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 7 1 7
+newbx,newby= 8 6
+afterque= deque([(7, 1, 7)])
+afterque= deque([(8, 6)])
+queueRed= deque([])
+queueBlue= deque([])
+None
+PS C:\Users\yjkim\AppData\Local\Programs\Python\Python39>  c:; cd 'c:\Users\yjkim\AppData\Local\Programs\Python\Python39'; & 'C:\Users\yjkim\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\yjkim\.vscode\extensions\ms-python.python-2021.7.1050252941\pythonFiles\lib\python\debugpy\launcher' '52683' '--' 'c:\Users\yjkim\AppData\Local\Programs\Python\Python39\(~ing)2021-07-20_13459_구슬탈출.py' 
+3 10
+##########
+#.O....RB#
+##########
+[['#', '#', '#', '#', '#', '#', '#', '#', '#', '#'], ['#', '.', 'O', '.', '.', '.', '.', 'R', 'B', '#'], ['#', '#', '#', '#', '#', '#', '#', '#', '#', '#']]
+[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 'O', 1, 1, 1, 1, 'R', 'B', 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+1 7 1 8 1 2
+1 7 1 8
+queueRed= deque([])
+queueBlue= deque([])
+newrx,newry,newcnt= 1 3 1
+newbx,newby= 1 8
+afterque= deque([(1, 3, 1)])
+afterque= deque([(1, 8)])
+queueRed= deque([])
+queueBlue= deque([])
+None
+PS C:\Users\yjkim\AppData\Local\Programs\Python\Python39>

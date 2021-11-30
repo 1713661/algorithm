@@ -1,0 +1,15 @@
+check= [False, False, True, True, True, False, True, True, True, True, True, True, True, True, True, True, True, True, False, True]
+move= 1 cnt= 0
+start= BAAAAAAAAAAAAAAAAAAA
+nextIdx= 1
+move= 1 cnt= 1
+start= BBAAAAAAAAAAAAAAAAAA
+nextIdx= 18
+move= 1 cnt= 3
+start= BBAAAAAAAAAAAAAAAABA
+nextIdx= 5
+move= 1 cnt= 7
+start= BBAAABAAAAAAAAAAAABA
+nextIdx= -1
+BBAAABAAAAAAAAAAAABA = BBAAABAAAAAAAAAAAABA
+15
